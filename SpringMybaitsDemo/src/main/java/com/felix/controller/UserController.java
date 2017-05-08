@@ -23,4 +23,12 @@ public class UserController {
 	public String tondex(){
 		return "index";
 	}
+	@RequestMapping(value="/test")
+	public String test(){
+		return "WEB-INF/page/t1";
+	}
+	@RequestMapping(value="/test2")
+	public String test2(){
+		return "WEB-INF/page/t2";
+	}
 }
